@@ -11,20 +11,20 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 export const navData = [
-  { name: "inicio", path: "/", icon: <HiHome /> },
+  { name: "inicio", path: "", icon: <HiHome /> },
   {
     name: "projetos",
-    path: "https://marcellonazar.com.br/projects",
+    path: "projects",
     icon: <HiViewColumns />,
   },
   {
     name: "sobre",
-    path: "https://marcellonazar.com.br/about",
+    path: "about",
     icon: <HiUser />,
   },
   {
     name: "contato",
-    path: "https://marcellonazar.com.br/contact",
+    path: "contact",
     icon: <HiEnvelope />,
   },
 ];
