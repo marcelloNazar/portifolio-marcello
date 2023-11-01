@@ -25,7 +25,7 @@ const Nav = () => {
   const pathName = usePathname();
   const router = useRouter();
   function handleClick(path: string) {
-    router.push(path);
+    return router.push(path);
   }
   return (
     <nav
