@@ -25,7 +25,7 @@ const Nav = () => {
   return (
     <nav
       className="absolute flex flex-col items-center xl:justify-center gap-y-4 h-max bottom-0 mt-auto 
-    xl:bottom-[2%] z-50 top-0 w-full"
+    xl:bottom-[2%] z-[50] top-0 w-full"
     >
       <div
         className="flex w-full items-center justify-between gap-x-10 px-4 md:px-40 xl:px-12
