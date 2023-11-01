@@ -95,7 +95,9 @@ const ProjetoSlider = () => {
           {projetoData.map((item, index) => {
             return (
               <SwiperSlide key={index}>
-                <Link href={`/about`}>
+                <Link
+                  href={`d${item.link}`}
+                >
                   <motion.div
                     variants={slideInFromRight(0.8)}
                     className="relative rounded-lg cursor-pointer overflow-hidden flex items-center justify-center group"

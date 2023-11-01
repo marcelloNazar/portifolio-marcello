@@ -43,7 +43,6 @@ const Nav = () => {
                 link.path === pathName && " bg-accent/30 rounded-full p-1"
               } relative flex items-center group hover:text-accent hover:scale-110 transition-all duration-300`}
               key={index}
-              onClick={() => handleClick(link.path)}
               href={link.path}
             >
               <div className="absolute h-10 w-[104px] left-1/2 transform -translate-x-1/2 bottom-[44px] hidden xl:group-hover:flex">
