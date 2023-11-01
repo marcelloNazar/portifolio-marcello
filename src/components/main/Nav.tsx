@@ -1,4 +1,5 @@
 "use client";
+
 import {
   HiHome,
   HiUser,
@@ -11,11 +12,19 @@ import { usePathname } from "next/navigation";
 
 export const navData = [
   { name: "inicio", path: "/", icon: <HiHome /> },
-  { name: "projetos", path: "/projects", icon: <HiViewColumns /> },
-  { name: "sobre", path: "/about", icon: <HiUser /> },
+  {
+    name: "projetos",
+    path: "https://marcellonazar.com.br/projects",
+    icon: <HiViewColumns />,
+  },
+  {
+    name: "sobre",
+    path: "https://marcellonazar.com.br/about",
+    icon: <HiUser />,
+  },
   {
     name: "contato",
-    path: "/contact",
+    path: "https://marcellonazar.com.br/contact",
     icon: <HiEnvelope />,
   },
 ];
