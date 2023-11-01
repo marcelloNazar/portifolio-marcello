@@ -24,7 +24,7 @@ const Nav = () => {
   const pathName = usePathname();
   return (
     <nav
-      className="flex flex-col items-center xl:justify-center gap-y-4 fixed h-max bottom-0 mt-auto 
+      className="absolute flex flex-col items-center xl:justify-center gap-y-4 h-max bottom-0 mt-auto 
     xl:bottom-[2%] z-50 top-0 w-full"
     >
       <div
