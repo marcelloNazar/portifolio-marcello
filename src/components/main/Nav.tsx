@@ -39,6 +39,7 @@ const Nav = () => {
         {navData.map((link, index) => {
           return (
             <Link
+              prefetch={false}
               className={`${
                 link.path === pathName && " bg-accent/30 rounded-full p-1"
               } relative flex items-center group hover:text-accent hover:scale-110 transition-all duration-300`}
